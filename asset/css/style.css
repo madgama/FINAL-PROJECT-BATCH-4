@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,900&display=swap');
+
+
+/* Header */
+.bg-grey {
+    background-color: rgb(240, 240, 240);
+}
+
+#header {
+    color: black;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.navbar {
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
+
+.form-control-dark {
+    border-color: var(--bs-grey);
+}
+
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+    outline: 0;
+}
+
+/* ABOUT */
+#about {
+    text-align: center;
+    margin: 1%;
+    background-color: #919191;
+    padding: 2%;
+}
+
+#about p {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+/* EXPERIENCE */
+#experience {
+    text-align: center;
+    line-height: 2%;
+    margin: 1%;
+    background-color: #919191;
+    padding: 2%;
+}
+
+#experience p {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+/* EDUCATION */
+#education {
+    text-align: center;
+    margin: 1%;
+    background-color: #919191;
+    padding: 2%;
+}
+
+#education p {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+/* SKILLS */
+#skills {
+    text-align: center;
+    line-height: 2%;
+    margin: 1%;
+    background-color: #919191;
+    padding: 2%;
+}
+
+#skills p {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+/* INTEREST */
+#interest {
+    text-align: center;
+    line-height: 2%;
+    margin: 1%;
+    background-color: #919191;
+    padding: 2%;
+}
+
+#interest p {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+/* AWARD */
+#award {
+    text-align: center;
+    margin: 1%;
+    background-color: #919191;
+    padding: 2%;
+}
+
+#award p {
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+}
